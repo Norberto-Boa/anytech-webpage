@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="w-full min-h-[80vh] flex items-center bg-gradient-to-b from-stone-300">
 
-      <div className=" lg:max-w-5xl md:max-w-2xl sm:max-w-xl mx-auto flex items-center justify-between relative sm:flex-row flex-col gap-8">
+      <div className=" lg:max-w-5xl md:max-w-2xl sm:max-w-xl mx-auto flex items-center justify-between relative sm:flex-row flex-col gap-8 py-16">
         <div className="sm:w-4/5 max-sm:flex max-sm:flex-col max-sm:items-center">
           
           <span className="text-sky-500 font-bold text-lg flex items-center gap-2 max-sm:hidden"> <span className="inline-block w-12 h-[2px] bg-purple-600 animate-width " /> O seu parceiro em tecnólogia.</span>
