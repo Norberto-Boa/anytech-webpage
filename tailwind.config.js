@@ -11,7 +11,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'stats': 'url(/src/assets/stats.jpg)'
+        'stats': 'url(/stats.jpg)'
       },
       screens: {
       'xs': '400px'
