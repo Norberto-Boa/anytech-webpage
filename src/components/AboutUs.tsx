@@ -1,15 +1,10 @@
-import imagem from '../assets/s.png';
-import { CheckFat, Play } from "@phosphor-icons/react";
+import img from '../assets/s.jpg';
+import { CheckFat } from "@phosphor-icons/react";
 
 const AboutUs = () => {
   return (
-
-    <div
-      className="py-24 bg-white w-full px-auto"
-      id="aboutUs"
-    >
-      <div className="lg:max-w-5xl md:max-w-2xl sm:max-w-xl xs:max-w-sm mx-auto px-auto flex justify-between gap-12 items-center lg:flex-row flex-col">
-
+    <div className="py-24 bg-white w-full px-auto">
+      <div className="lg:max-w-5xl md:max-w-2xl sm:max-w-xl xs:max-w-sm mx-auto px-auto flex justify-between gap-12 items-stretch lg:flex-row flex-col">
         <div className="lg:w-[48%] sm:max-w-xl xs:max-w-sm max-w-xs flex-none items-center mx-auto">
           <h2 className="font-bold text-sky-500 pb-2 max-md:text-center">Sobre nós</h2>
           <h1 className="font-black font-title md:text-5xl text-4xl pb-4 max-md:text-center">Fazemos a <span className="bg-gradient-to-r from-purple-800 via-purple-600 to-orange-500 bg-clip-text text-transparent">tecnologia</span> trabalhar para si!</h1>
@@ -20,8 +15,8 @@ const AboutUs = () => {
           
         </div>
 
-        <div className="sm:px-12 md:px-4">
-          <img src={imagem} alt="" className="scale-1"/>
+        <div className="sm:px-12 max-xs:max-w-xs md:px-4">
+          <img src={img} alt="" className="w-full shadow-2xl object-cover"/>
         </div>
       </div>
     </div>
