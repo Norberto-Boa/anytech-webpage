@@ -2,7 +2,10 @@ import PenTool from "../assets/pen-tool.svg";
 
 const Services = () => {
   return (
-    <div className="w-full py-16">
+    <div
+      className="w-full py-16"
+      id="services"
+    >
       <div className="lg:max-w-5xl md:max-w-3xl min-[680px]:max-w-2xl max-w-xl mx-auto w-full">
         <div className="mx-auto w-fit flex items-center gap-2 mb-4">
           <span className="bg-sky-800 w-20 h-[2px] inline-block" />
@@ -15,37 +18,37 @@ const Services = () => {
           
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Marketing digital</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil asperiores mollitia?</p>
+            <p>Colocámos a sua empresa bem posicionada no maior mercado do mundo!</p>
             <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
 
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Design Gráfico</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil asperiores mollitia?</p>
+            <p>Damos uma identidade e autenticidade ao seu negócio para o fácil reconhecimento!</p>
             <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
  
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Desenvolvimento de Sistemas</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil asperiores mollitia?</p>
+            <p>Digitalizamos soluções e metodos de gestão, adaptando-se a sua necessidade!</p>
             <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
  
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Centro de Reparação</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil asperiores mollitia?</p>
+            <p>Fazemos a reparação de qualquer aparelho electrónico e com a garantia!</p>
             <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
  
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Instalação de Redes</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil asperiores mollitia?</p>
+            <p>Conectamos o seu office de ponta à ponta de uma maneira rápida e segura!</p>
             <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
  
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Artigos Informáticos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil asperiores mollitia?</p>
+            <p>Contemos todo tipo de produto informático, de perifericos à softwares!</p>
             <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
  

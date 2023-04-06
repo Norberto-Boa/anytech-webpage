@@ -2,7 +2,10 @@ import Teamwork from "../assets/teamwork.svg";
 
 const Core = () => {
   return (
-    <div className="w-full bg-zinc-200/60 py-24">
+    <div
+      className="w-full bg-zinc-200/60 py-24"
+      id="core"
+    >
       <div className="lg:max-w-5xl md:max-w-3xl sm:max-w-lg xs:max-w-sm max-w-xs mx-auto w-full">
         <div className="mx-auto w-fit flex items-center gap-2 mb-4">
           <span className="bg-sky-800 w-20 h-[2px] inline-block" />

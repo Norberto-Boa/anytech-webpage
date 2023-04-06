@@ -24,7 +24,6 @@ function App() {
         <CallToAction />
         <Contacts />
       </div>
-      <Footer />
     </div>
   )
 }

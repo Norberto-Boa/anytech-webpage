@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from "react-scroll";
 
 
 interface NavItemProps{
@@ -6,16 +7,19 @@ interface NavItemProps{
   to: string,
 }
 
-const NavItem = ({name, to} : NavItemProps) => {
-  return (
-    <li className="px-4 max-md:border-b max-md:border-zinc-500 font-medium">
-      <a href={to}>{name}</a>
-    </li>
-  )
-}
+const Navigation = [
+  { name: "Home", href: "hero" },
+  { name: "Valores", href: "core" },
+  { name: "Sobre-nós", href: "aboutUs" },
+  { name: "Serviços", href: "services" },
+  { name: "Contactos", href: "contacts" }
+]
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -37,12 +41,20 @@ const Navbar = () => {
         </button>
 
         <div className={`fixed top-12 bottom-0 ${!isOpen ? '-right-full' : 'right-0'} bg-zinc-900 w-full md:w-auto md:static transition-all duration-1000`}>
-          <ul className="md:flex ">
-            <NavItem name="Home" to="#" />
-            <NavItem name="Contact" to="#" />
-            <NavItem name="About" to="#" />
-            <NavItem name="Portfolio" to="#" />
-          </ul>
+          <div className="flex flex-col md:flex-row">
+            {Navigation.map((item, i) => {
+              return (
+                <Link
+                  key={i}
+                  onClick={toggleNavbar}
+                  to={item.href} spy={true} smooth={true} offset={-100} duration={1700}
+                  className="px-4 max-md:py-4 max-md:border-b max-md:border-zinc-800 font-semibold text-center max-md:text-xl cursor-pointer transition-all w-full whitespace-nowrap"
+                >
+                { item.name}
+              </Link>
+              )
+            })}
+          </div>
         </div>
         
       </div>
