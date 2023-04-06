@@ -1,5 +1,5 @@
-import imagem from '../assets/s.png';
-import { CheckFat, Play } from "@phosphor-icons/react";
+import imagem from '../assets/s.jpg';
+import { CheckFat } from "@phosphor-icons/react";
 
 const AboutUs = () => {
   return (
