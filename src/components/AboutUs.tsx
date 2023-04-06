@@ -1,4 +1,4 @@
-import imagem from '../assets/s.jpg';
+import img from '../assets/s.jpg';
 import { CheckFat } from "@phosphor-icons/react";
 
 const AboutUs = () => {
@@ -18,7 +18,7 @@ const AboutUs = () => {
         </div>
 
         <div className="sm:px-12 max-xs:max-w-xs md:px-4">
-          <img src={imagem} alt="" className="w-full shadow-2xl object-cover"/>
+          <img src={img} alt="" className="w-full shadow-2xl object-cover"/>
         </div>
       </div>
     </div>
