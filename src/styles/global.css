@@ -3,6 +3,20 @@
 @tailwind components;
 @tailwind variants;
 
+@layer utilities{
+  .animation-delay-200{
+    animation-delay: 0.2s;
+  }
+
+  .animation-delay-300{
+    animation-delay: 0.3s;
+  }
+
+  .animation-delay-5000{
+    animation-delay: 5s;
+  }
+}
+
 .active{
   color: #0ea5e9;
 }

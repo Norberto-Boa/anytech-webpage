@@ -1,4 +1,5 @@
 import Teamwork from "../assets/teamwork.svg";
+import idea from "../assets/lamp.svg";
 
 const Core = () => {
   return (
@@ -30,7 +31,7 @@ const Core = () => {
 
           <div className= "w-[350px] min-[470px]:w-[450px] h-48 border-2 border-zinc-400 rounded-2xl bg-white flex items-center p-4 gap-4 hover:scale-105 transition-all duration-700">
             <div className="relative flex-none">
-              <img src={Teamwork} alt="Equipa profissional" className="w-20" />
+              <img src={idea} alt="Equipa profissional" className="w-20" />
             </div>
             
             <div className="flex-initial">

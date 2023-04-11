@@ -31,11 +31,24 @@ module.exports = {
             'transform': 'translate(-50%, 0)',
             'animation-timing-function': 'cubic-bezier(0, 0, 0.2, 1)'
           }
+        },
+        loader: {
+          "to": {
+            "opacity": "0.1",
+            "transform": "translate3d(0,-1rem,0)"
+          }
+        },
+        fadeOut: {
+          "to": {
+            "opacity": "0"
+          }
         }
       },
       animation: {
-        width: 'width 2s linear alternate infinite',
-        'bounce-slow': 'bouncing 3s alternate infinite'
+        "width": 'width 2s linear alternate infinite',
+        'bounce-slow': 'bouncing 3s alternate infinite',
+        "loader": "loader 0.6s infinite alternate",
+        "fadeOff": "fadeOut 700s finite"
       }
     },
     

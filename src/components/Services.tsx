@@ -1,4 +1,9 @@
 import PenTool from "../assets/pen-tool.svg";
+import network from "../assets/rede.svg";
+import marketing from "../assets/growth.svg";
+import wrench from "../assets/Repairing.svg";
+import dev from "../assets/programming.svg";
+import computer from "../assets/workstation.svg";
 
 const Services = () => {
   return (
@@ -19,7 +24,7 @@ const Services = () => {
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Marketing digital</h2>
             <p>Colocámos a sua empresa bem posicionada no maior mercado do mundo!</p>
-            <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
+            <img src={marketing} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
 
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
@@ -31,25 +36,25 @@ const Services = () => {
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Desenvolvimento de Sistemas</h2>
             <p>Digitalizamos soluções e metodos de gestão, adaptando-se a sua necessidade!</p>
-            <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
+            <img src={dev} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
  
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Centro de Reparação</h2>
             <p>Fazemos a reparação de qualquer aparelho electrónico e com a garantia!</p>
-            <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
+            <img src={wrench} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
  
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Instalação de Redes</h2>
             <p>Conectamos o seu office de ponta à ponta de uma maneira rápida e segura!</p>
-            <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
+            <img src={network} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
  
           <div className="shadow-xl mb-8 p-4 w-80 text-center relative overflow-hidden rounded-2xl hover:scale-105 transition-all duration-700">
             <h2 className="font-bold text-sky-500 pb-2 text-lg">Artigos Informáticos</h2>
             <p>Contemos todo tipo de produto informático, de perifericos à softwares!</p>
-            <img src={PenTool} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
+            <img src={computer} alt="Design services" className="w-28 absolute -bottom-[20%] right-0 opacity-25 -z-10"/>
           </div>
  
         </div>
