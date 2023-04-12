@@ -7,7 +7,7 @@ const Preloaders = () => {
         <span className="w-4 h-4 my-4 mx-1 bg-sky-500 rounded-full animate-loader animation-delay-300"/><br/>
       </div>
       <h1 className="font-bold text-zinc-900 ">
-        Estamos a montar o paraíso...
+        Montando o paraíso...
       </h1>
     </div>
   )

@@ -47,7 +47,7 @@ const Navbar = () => {
                 <Link
                   key={i}
                   onClick={toggleNavbar}
-                  to={item.href} spy={true} smooth={true} offset={-100} duration={1700}
+                  to={item.href} spy={true} smooth={true} offset={-50} duration={1700}
                   className="px-4 max-md:py-4 max-md:border-b max-md:border-zinc-800 font-semibold text-center max-md:text-xl cursor-pointer transition-all w-full whitespace-nowrap"
                 >
                 { item.name}
