@@ -20,14 +20,23 @@ function App() {
     setTimeout(() => setLoading(false), 6000);
   },[])
 
-  return (
-    
-    <div className="overflow-x-hidden">
-      <div className={`fixed inset-0 min-w-full min-h-screen bg-white z-20 transition-all duration-1000 block ${loading ? "opacity-100" : `-top-full opacity-0 hidden`}`}>
+  function hidePreloader() {
+   return new Promise((resolve, reject) => {
+     setTimeout(() => {
+       resolve('hidden!');
+     });
+   });
+}
+
+  const hidden = hidePreloader().then(hidden => console.log(hidden));
+return (
+  
+  <div className="overflow-x-hidden">
+      <div className={`fixed inset-0 min-w-full min-h-screen bg-white z-20 transition-all duration-1000 block ${loading ? "opacity-100" : `-top-full left-auto right-auto opacity-0 !min-w-0 !min-h-0`}`}>
         <Preloaders />
       </div>
       <Navbar />
-      <div className="w-full">
+    <div className="w-full">
         <Hero />
         <Clients />
         <Core />
