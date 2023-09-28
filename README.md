@@ -19,7 +19,6 @@
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [Authors](#authors)
--
 
 ## 🧐 About <a name = "about"></a>
 
@@ -31,7 +30,7 @@ Clone the repository with the following command
 git clone https://github.com/Norberto-Boa/anytech-webpage.git
 ```
 
-## 👁 Live demo
+## 👁 Live demo <a name="live_demo"></a>
 
 [Check the live demo](https://officialweb.vercel.app/)
 
