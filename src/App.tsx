@@ -16,7 +16,6 @@ import { Statistics } from "./components/Statistics"
 function App() {
   const [loading, setLoading] = useState(true);
 
-
   useEffect(() => {
     setTimeout(() => setLoading(false), 6000);
   },[])
@@ -24,7 +23,7 @@ function App() {
   return (
     
     <div className="overflow-x-hidden">
-      <div className={`fixed inset-0 min-w-full min-h-screen bg-white z-20 transition-all duration-1000 ${loading ? "opacity-100" : "-top-full opacity-0 hidden"}`}>
+      <div className={`fixed inset-0 min-w-full min-h-screen bg-white z-20 transition-all duration-1000 block ${loading ? "opacity-100" : `-top-full opacity-0 hidden`}`}>
         <Preloaders />
       </div>
       <Navbar />
