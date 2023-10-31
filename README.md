@@ -1,6 +1,7 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=250px height=100px src="./src/assets/AnyTech.png" alt="Project logo"></a>
+ <img width=250px height=100px src="./src/assets/AnyTech.png" alt="Project logo">
+ </a>
 </p>
 
 <h3 align="center">AnyTech Webpage</h3>
